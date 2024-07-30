@@ -1,6 +1,6 @@
 {
   "name": "trace-map",
-  "description": "log helper for ds",
+  "description": "custom log extension console.log",
   "main": "dist/trace-map.cjs.js",
   "module": "dist/trace-map.esm.js",
   "umd:main": "dist/trace-map.umd.js",
@@ -31,5 +31,5 @@
   "dependencies": {
     "@babel/preset-typescript": "^7.23.3"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
