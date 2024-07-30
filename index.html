@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Library Test</title>
+  </head>
+
+  <body>
+    <script type="module">
+      import { dslog } from "./dist/dslog.esm.js";
+      console.log(dslog);
+      // 使用 dslog 功能
+      dslog.info("info: 123");
+      dslog.method("123");
+      dslog.obj({ a: 1 });
+      dslog.error("错误了");
+    </script>
+  </body>
+</html>
